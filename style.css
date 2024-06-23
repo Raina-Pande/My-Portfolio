@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: black;
+    background: white;
+}
+
+header {
+    background: black;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 5rem 1rem;
+    margin-top: 5rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+h1, h2 {
+    color: black;
+}
+
+#myImg {
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+#tagline {
+    font-size: 25px;
+    font-weight: bolder;
+    color: blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 0.5rem;
+}
+
+form input, form textarea {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+form button {
+    padding: 0.5rem;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
